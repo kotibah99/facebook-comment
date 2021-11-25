@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Login Form</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="./lib/axios.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js" integrity="sha512-KCwrxBJebca0PPOaHELfqGtqkUlFUCuqCnmtydvBSTnJrBirJ55hRG5xcP4R9Rdx9Fz9IF3Yw6Rx40uhuAHR8Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+	<div class="container">
+		<h1 class="label">User Login</h1>
+		<div class="login_form" name="form">
+			<div class="email">Email</div>
+			<input autocomplete="off" type="text" id="email" >
+			
+			<div class="pass1">Password</div>
+			<input type="password" id="password">
+			<div id="password_error"></div>
+			<button type="submit" onclick="logInUser()">Login</button>
+		</div>
+	</div>	
+	<script src="login.js"></script>
+	<script src="db.json"></script>
+</body>
+</html>

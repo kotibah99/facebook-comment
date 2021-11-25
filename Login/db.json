@@ -1,0 +1,72 @@
+{
+  "active": [
+    {
+      "name": "Zain",
+      "email": "zainaldeen@gmail.com",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "name": "Kotaibah",
+      "email": "kotaibah@gmail.com",
+      "pass": "123456"
+    },
+    {
+      "name": "Zain",
+      "email": "zainaldeen@gmail.com",
+      "pass": "098765"
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "publisher": "May",
+      "image": "images/1.jpg",
+      "content": "hi say hi to my post!!",
+      "comments": [
+        {
+          "publisher": "Zain",
+          "image": "images/1.jpg",
+          "content": "welcome to our website!!"
+        },
+        {
+          "publisher": "Lilas",
+          "image": "images/1.jpg",
+          "content": "be sure to learn design !!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "publisher": "zian",
+      "image": "images/1.jpg",
+      "content": "hi say hi to my post!!",
+      "comments": [
+        {
+          "publisher": "may",
+          "image": "images/1.jpg",
+          "content": "welcome to our website!!"
+        },
+        {
+          "publisher": "Lilas",
+          "image": "images/1.jpg",
+          "content": "be sure to learn design !!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "publisher": "Kotaibah",
+      "content": "zainzainzain",
+      "image": "images/1.jpg",
+      "comments": []
+    },
+    {
+      "content": "hi 2",
+      "publisher": "Zain",
+      "comments": [],
+      "id": 5
+    }
+  ]
+}
